@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needil - Less paperwork. More patient care.</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <img src="images-assets/logo/needil_logo_cropped.png" alt="Needil Logo" class="nav-logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#problems">Key Problems</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#specialties">Specialty</a>
+                <a href="#features">Features</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu Drawer -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#problems">Key Problems</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#specialties">Specialty</a>
+            <a href="#features">Features</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="btn btn-primary btn-block mt-4">Get Started</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-content fade-up">
+                    <span class="eyebrow">Built for modern clinics</span>
+                    <h1 class="display-title">Less paperwork.<br/>More <span class="text-primary">patient care.</span></h1>
+                    
+                    <div class="hero-visual-mobile">
+                        <div class="image-wrapper shadow-soft">
+                            <img src="images-assets/images to be used inside the website-mandatory/paper_to_digital.png" alt="Needil Dashboard Preview">
+                        </div>
+                    </div>
+                    
+                    <p class="hero-subtitle">Handwritten notes that fade. Folders that go missing. Patient history scattered across a hundred pieces of paper — and nobody can find anything when it matters most.</p>
+                    <p class="hero-subtitle-bold">Your doctors spend less time on paperwork. You spend less time worrying about the clinic.</p>
+                    <p class="hero-subtitle-end">Every patient, every note, every visit — organized, searchable, and never lost again.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="contact.html" class="btn btn-primary btn-large">Book a Free Demo</a>
+                        <a href="#workflow" class="btn btn-outline btn-large">See How It Works</a>
+                    </div>
+                    <p class="hero-tagline">No credit card required. Set up on your own in less than 10 minutes, or let us help.</p>
+                </div>
+                <div class="hero-visual fade-up delay-1">
+                    <div class="image-wrapper shadow-soft">
+                        <img src="images-assets/images to be used inside the website-mandatory/paper_to_digital.png" alt="Needil Dashboard Preview">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pain Points Section -->
+        <section id="problems" class="pain-points section bg-surface-alt">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <span class="eyebrow">Does this sound familiar?</span>
+                    <h2 class="section-title">The hidden cost of running on paper</h2>
+                    <p class="section-subtitle">Most clinics don't realize how much time and quality they're losing — until they see the alternative.</p>
+                </div>
+
+                <div class="pain-grid">
+                    <!-- Card 1 -->
+                    <div class="pain-card fade-up delay-1">
+                        <div class="card-image-wrapper bg-gray-50">
+                            <img src="images-assets/images to be used inside the website-mandatory/the_lost_records.png" alt="Missing folders">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">The folder nobody can find</h3>
+                            <p class="card-text">Patient sits down. You search the cabinet, check the desk, check again. Notes are missing or the handwriting is too rushed to read. You have to ask them to repeat their history.</p>
+                            <div class="card-solution border-dashed">
+                                <span class="solution-eyebrow">With Needil</span>
+                                <p class="solution-text">Full history, searchable in seconds. AI-summarized on demand — no more digging through folders.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="pain-card fade-up delay-2">
+                        <div class="card-image-wrapper bg-gray-50">
+                            <img src="images-assets/images to be used inside the website-mandatory/the_late_charting.png" alt="Late charting">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Notes written at 9pm</h3>
+                            <p class="card-text">Last patient left at 6. You're still at the clinic at 9, writing from memory. Notes shorter than they should be. Some details already gone. Tomorrow, again.</p>
+                            <div class="card-solution border-dashed">
+                                <span class="solution-eyebrow">With Needil</span>
+                                <p class="solution-text">Type or dictate your note in the system. Structured templates keep it fast. Saved the moment you sign off.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="pain-card fade-up delay-3">
+                        <div class="card-image-wrapper bg-gray-50">
+                            <img src="images-assets/images to be used inside the website-mandatory/appointment_calendar.png" alt="Double booked calendar">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Double-booked again</h3>
+                            <p class="card-text">Two patients arrive for the same slot. The calendar is a mess of crossed-out pencil entries. Reception is overwhelmed, and you're already running an hour behind.</p>
+                            <div class="card-solution border-dashed">
+                                <span class="solution-eyebrow">With Needil</span>
+                                <p class="solution-text">Real-time booking locks slots instantly. Patients book directly online, and automated reminders keep no-shows under 2%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workflow Section -->
+        <section id="workflow" class="workflow section">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <span class="eyebrow">How it works</span>
+                    <h2 class="section-title">From first visit to final note — one system</h2>
+                </div>
+                
+                <div class="workflow-visual fade-up delay-1 text-center">
+                    <img src="images-assets/images to be used inside the website-mandatory/workflow.png" alt="Workflow timeline" class="workflow-image">
+                    <div class="workflow-steps grid-5">
+                    <div class="step-item fade-up delay-1">
+                        <div class="step-number">01</div>
+                        <h4 class="step-title">Check In</h4>
+                        <p class="step-desc">Patient arrives and checks in effortlessly at the front desk or kiosk.</p>
+                    </div>
+                    <div class="step-item fade-up delay-2">
+                        <div class="step-number">02</div>
+                        <h4 class="step-title">Session Notes</h4>
+                        <p class="step-desc">Doctor quickly records specific session details, observations, and treatment points used.</p>
+                    </div>
+                    <div class="step-item fade-up delay-3">
+                        <div class="step-number">03</div>
+                        <h4 class="step-title">Treatment Sessions Planning</h4>
+                        <p class="step-desc">Create and schedule a personalized timeline for the patient's upcoming sessions.</p>
+                    </div>
+                    <div class="step-item fade-up delay-4">
+                        <div class="step-number">04</div>
+                        <h4 class="step-title">Maintenance Sessions</h4>
+                        <p class="step-desc">Manage recurring wellness maintenance and automated follow-ups.</p>
+                    </div>
+                    <div class="step-item fade-up delay-5">
+                        <div class="step-number">05</div>
+                        <h4 class="step-title">Record Completion</h4>
+                        <p class="step-desc">All records are securely saved to the patient timeline and accessible anytime.</p>
+                    </div>
+                </div>    </div>
+            </div>
+        </section>
+
+        <!-- Clinic Types Section -->
+        <section id="specialties" class="clinic-types section bg-surface-alt border-top">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <span class="eyebrow">Built for your kind of clinic</span>
+                    <h2 class="section-title">Your specialty. Your workflow.</h2>
+                    <p class="section-subtitle">Needil adapts to how your clinic actually works — not the other way around.</p>
+                </div>
+
+                <div class="clinic-grid">
+                    <!-- Specialty 1 -->
+                    <div class="specialty-card bg-blue fade-up delay-1">
+                        <span class="specialty-badge badge-blue">Acupuncture Clinic</span>
+                        <blockquote class="specialty-quote">"I have to write down treatment points in a notebook. By the end of the day, my notes are a mess and hard to search."</blockquote>
+                        <div class="specialty-fix">
+                            <div class="fix-icon-wrapper bg-blue-100 text-blue-700">
+                                <svg class="fix-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-blue-700">Structured acupuncture templates. Quickly log points used and save precise treatment histories to the timeline.</p>
+                        </div>
+                    </div>
+
+                    <!-- Specialty 2 -->
+                    <div class="specialty-card bg-purple fade-up delay-2">
+                        <span class="specialty-badge badge-purple">Chiropractic Clinic</span>
+                        <blockquote class="specialty-quote">"I spend more time typing up SOAP notes after hours than I do adjusting patients during the day."</blockquote>
+                        <div class="specialty-fix">
+                            <div class="fix-icon-wrapper bg-purple-100 text-purple-700">
+                                <svg class="fix-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-purple-700">Structured templates designed for adjustments. Finish charting in the room before the patient even leaves.</p>
+                        </div>
+                    </div>
+
+                    <!-- Specialty 3 -->
+                    <div class="specialty-card bg-green fade-up delay-1">
+                        <span class="specialty-badge badge-green">Physiotherapy Clinic</span>
+                        <blockquote class="specialty-quote">"Tracking patient progress across a 12-session treatment plan means flipping back and forth through old files."</blockquote>
+                        <div class="specialty-fix">
+                            <div class="fix-icon-wrapper bg-green-100 text-green-700">
+                                <svg class="fix-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-green-700">Complete patient timelines. See progress, range of motion improvements, and past sessions at a single glance.</p>
+                        </div>
+                    </div>
+
+                    <!-- Specialty 4 -->
+                    <div class="specialty-card bg-rose fade-up delay-2">
+                        <span class="specialty-badge badge-rose">Wellness Center</span>
+                        <blockquote class="specialty-quote">"Patients arrive and take 15 minutes to fill out paper intake forms on a clipboard while my waiting room gets packed."</blockquote>
+                        <div class="specialty-fix">
+                            <div class="fix-icon-wrapper bg-rose-100 text-rose-700">
+                                <svg class="fix-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-rose-700">Streamlined in-clinic check-in. Staff record vital intake information directly into the system upon arrival.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Bento Grid -->
+        <section id="features" class="bento-section section bg-surface-alt border-top">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <span class="eyebrow">⚡ Built for Wellness Clinics</span>
+                    <h2 class="section-title">Everything you need. Nothing you don't.</h2>
+                    <p class="section-subtitle">A powerful, interconnected workspace that adapts to your clinic's unique workflow.</p>
+                </div>
+                
+                <div class="visual-bento-grid">
+                    <!-- Card 1: Interactive Notes (Hero) -->
+                    <div class="visual-card visual-hero fade-up delay-1">
+                        <div class="mockup-notes">
+                            <div class="mockup-header"></div>
+                            <div class="mockup-body">
+                                <div class="body-map">
+                                    <div class="map-point point-1"></div>
+                                    <div class="map-point point-2"></div>
+                                    <div class="map-point point-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visual-content">
+                            <h3 class="visual-title">Interactive Treatment Notes</h3>
+                            <p class="visual-desc">Ditch the paper body maps. Log treatment points visually and track precise session histories with our specialized templates.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Patient Intake (Stack) -->
+                    <div class="visual-card visual-intake fade-up delay-2">
+                        <div class="mockup-stack">
+                            <div class="stack-card card-back"></div>
+                            <div class="stack-card card-middle"></div>
+                            <div class="stack-card card-front">
+                                <div class="form-line w-full"></div>
+                                <div class="form-line w-half"></div>
+                                <div class="form-line w-half"></div>
+                                <div class="form-btn"></div>
+                            </div>
+                        </div>
+                        <div class="visual-content">
+                            <h3 class="visual-title">Smart Patient Intake</h3>
+                            <p class="visual-desc">Streamlined kiosk check-ins and custom digital forms for faster visits.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Planning (Calendar) -->
+                    <div class="visual-card visual-planning fade-up delay-3">
+                        <div class="mockup-calendar">
+                            <div class="cal-day"></div>
+                            <div class="cal-day cal-active"></div>
+                            <div class="cal-day"></div>
+                            <div class="cal-day"></div>
+                            <div class="cal-day cal-active"></div>
+                            <div class="cal-day"></div>
+                            <div class="cal-day"></div>
+                            <div class="cal-day"></div>
+                            <div class="cal-day cal-active"></div>
+                        </div>
+                        <div class="visual-content">
+                            <h3 class="visual-title">Treatment Planning</h3>
+                            <p class="visual-desc">Easily chart and schedule multi-session treatment protocols for your patients.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Maintenance (Arrows) -->
+                    <div class="visual-card visual-maintenance fade-up delay-4">
+                        <div class="mockup-cycle">
+                            <div class="cycle-ring"></div>
+                            <div class="cycle-dot"></div>
+                        </div>
+                        <div class="visual-content">
+                            <h3 class="visual-title">Maintenance Sessions</h3>
+                            <p class="visual-desc">Automate follow-ups and manage recurring wellness maintenance scheduling.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: RBAC (Lock) -->
+                    <div class="visual-card visual-security fade-up delay-5">
+                        <div class="mockup-lock">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        </div>
+                        <div class="visual-content">
+                            <h3 class="visual-title">Role-Based Access</h3>
+                            <p class="visual-desc">Secure, customized access control for doctors, receptionists, and clinic staff.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 6: Timeline Anchor -->
+                    <div class="visual-card visual-timeline fade-up delay-6">
+                        <div class="mockup-timeline">
+                            <div class="tl-line"></div>
+                            <div class="tl-node tl-past"></div>
+                            <div class="tl-node tl-past"></div>
+                            <div class="tl-node tl-current"></div>
+                            <div class="tl-node tl-future"></div>
+                        </div>
+                        <div class="visual-content visual-content-row">
+                            <h3 class="visual-title">Complete Patient Timeline</h3>
+                            <p class="visual-desc">Vitals, past visits, and session notes combined into one beautiful, searchable view.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <section id="demo" class="bottom-cta section bg-primary text-white">
+            <div class="container text-center fade-up">
+                <h2 class="cta-title text-white">Focus on your patients.<br/>Let us handle the paperwork.</h2>
+                <p class="cta-subtitle text-white-muted">Say goodbye to scattered files and endless administrative work. Discover how Needil keeps your clinic organized and running smoothly.</p>
+                <div class="hero-actions justify-center">
+                    <a href="contact.html" class="btn btn-white btn-large">Book a Free Demo</a>
+                    <a href="#features" class="btn btn-outline-white btn-large">See All Features</a>
+                </div>
+                <p class="hero-tagline text-white-muted">Set up and start on your own in less than 10 minutes, or let us help you get started.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-surface-alt border-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images-assets/logo/needil_logo_cropped.png" alt="Needil Logo" class="footer-logo">
+                    <p class="footer-text">Modern, flexible clinical workspace designed specifically for wellness and specialty clinics. Built to simplify patient records, scheduling, and charting so you can focus on care.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#workflow">Workflow</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom border-top">
+                <p class="footer-text">&copy; 2026 Needil. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

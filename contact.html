@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Needil</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-surface-alt">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images-assets/logo/needil_logo_cropped.png" alt="Needil Logo" class="nav-logo">
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#problems">Key Problems</a>
+                <a href="index.html#workflow">Workflow</a>
+                <a href="index.html#specialties">Specialty</a>
+                <a href="index.html#features">Features</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contact Header Background -->
+        <section class="contact-header bg-primary text-white text-center">
+            <div class="container">
+                <h1 class="display-title text-white">Contact Information</h1>
+                <p class="hero-subtitle text-white-muted mb-0">We'd love to hear from you.</p>
+                <a href="mailto:hello@needil.com" class="contact-email-pill">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    hello@needil.com
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Form Card -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-card shadow-soft fade-up">
+                    <h2 class="card-title-lg">Send us a message</h2>
+                    
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" class="form-input" placeholder="Dr. John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="clinicName" class="form-label">Organization/Clinic Name</label>
+                                <input type="text" id="clinicName" name="clinicName" class="form-input" placeholder="Smith Family Clinic">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 123-4567">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mt-4">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Tell us about your practice and how we can help..." required></textarea>
+                        </div>
+                        
+                        <div class="form-actions mt-6">
+                            <button type="submit" class="btn btn-primary btn-large btn-block">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-surface-alt border-top mt-12">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images-assets/logo/needil_logo_cropped.png" alt="Needil Logo" class="footer-logo">
+                    <p class="footer-text">Modern, flexible clinical workspace designed specifically for wellness and specialty clinics. Built to simplify patient records, scheduling, and charting so you can focus on care.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#workflow">Workflow</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom border-top">
+                <p class="footer-text">&copy; 2026 Needil. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
